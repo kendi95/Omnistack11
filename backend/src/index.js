@@ -1,9 +1,6 @@
 const express = require("express");
 const cors = require("cors");
 const routes = require("./routes");
-const crypto = require("crypto");
-
-console.log(crypto.randomBytes(4).toString("HEX"));
 
 const server = express();
 
